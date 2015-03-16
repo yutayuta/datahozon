@@ -7,21 +7,25 @@
 //
 
 import UIKit
+//import Foundation
 
 class ViewController: UIViewController {
+    
+    
+    
     
     @IBAction func respondToSaveButtonClick(){
         
         //保存するファイルの設定
         let paths = NSSearchPathForDirectoriesInDomains(
-            .DocumentDictionary,
-            .UserDomainMask, true) as [String]
-        let filePath = String(paths[0]) + "data.plist"
+            .DocumentDirectory,
+            .UserDomainMask, true)[0] as String
+        let filePath = paths + "data.plist"
         
         
         //都道府県データ
-        let array = ["北海道","青森","岩手","秋田","宮城"] as NSArray
-        let successful = array.wrirteToFile(filePath, atomically: false)
+        let array:NSArray = ["北海道","青森","岩手","秋田","宮城"]
+        let successful = array.writeToFile(filePath, atomically: false)
         if successful{
             println("ええやん。")
         }
@@ -29,11 +33,12 @@ class ViewController: UIViewController {
     
     
     
+    
     @IBAction func respondToLoadButtonClick(){
         
         //保存するファイルの設定
-        let paths: String = NSSearchPathForDirectoriesInDomains(
-            .DocumentDictionary,
+        let paths = NSSearchPathForDirectoriesInDomains(
+            .DocumentDirectory,
             .UserDomainMask, true) as [String]
         let filePath = String(paths[0]) + "data.plist"
         
@@ -43,6 +48,7 @@ class ViewController: UIViewController {
             println(data)
         }
     }
+    
     
     
     
