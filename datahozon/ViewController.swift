@@ -9,17 +9,42 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func respondToSaveButtonClick(){
+        
+        //保存するファイルの設定
+        let paths = NSSearchPathForDirectoriesInDomains(
+            .DocumentDictionary,
+            .UserDomainMask, true) as [String]
+        let filePath = String(paths[0]) + "data.plist"
+        
+        
+        //都道府県データ
+        let array = ["北海道","青森","岩手","秋田","宮城"] as NSArray
+        let successful = array.wrirteToFile(filePath, atomically: false)
+        if successful{
+            println("ええやん。")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    
+    @IBAction func respondToLoadButtonClick(){
+        
+        //保存するファイルの設定
+        let paths: String = NSSearchPathForDirectoriesInDomains(
+            .DocumentDictionary,
+            .UserDomainMask, true) as [String]
+        let filePath = String(paths[0]) + "data.plist"
+        
+        //データの読み込み
+        let array = NSArray(contentsOfFile: filePath)!
+        for data in array {
+            println(data)
+        }
     }
-
-
+    
+    
+    
 }
 
