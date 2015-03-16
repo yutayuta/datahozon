@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65A8B051AB6C3A500040620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A8B041AB6C3A500040620 /* AppDelegate.swift */; };
+		D65A8B071AB6C3A500040620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A8B061AB6C3A500040620 /* ViewController.swift */; };
+		D65A8B0A1AB6C3A500040620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65A8B081AB6C3A500040620 /* Main.storyboard */; };
+		D65A8B0C1AB6C3A500040620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65A8B0B1AB6C3A500040620 /* Images.xcassets */; };
+		D65A8B0F1AB6C3A500040620 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65A8B0D1AB6C3A500040620 /* LaunchScreen.xib */; };
+		D65A8B1B1AB6C3A600040620 /* datahozonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A8B1A1AB6C3A600040620 /* datahozonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65A8B151AB6C3A600040620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65A8AF71AB6C3A500040620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65A8AFE1AB6C3A500040620;
+			remoteInfo = datahozon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D65A8AFF1AB6C3A500040620 /* datahozon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = datahozon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65A8B031AB6C3A500040620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65A8B041AB6C3A500040620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D65A8B061AB6C3A500040620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D65A8B091AB6C3A500040620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D65A8B0B1AB6C3A500040620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D65A8B0E1AB6C3A500040620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D65A8B141AB6C3A600040620 /* datahozonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datahozonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65A8B191AB6C3A600040620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65A8B1A1AB6C3A600040620 /* datahozonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datahozonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65A8AFC1AB6C3A500040620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65A8B111AB6C3A600040620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65A8AF61AB6C3A500040620 = {
+			isa = PBXGroup;
+			children = (
+				D65A8B011AB6C3A500040620 /* datahozon */,
+				D65A8B171AB6C3A600040620 /* datahozonTests */,
+				D65A8B001AB6C3A500040620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65A8B001AB6C3A500040620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65A8AFF1AB6C3A500040620 /* datahozon.app */,
+				D65A8B141AB6C3A600040620 /* datahozonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65A8B011AB6C3A500040620 /* datahozon */ = {
+			isa = PBXGroup;
+			children = (
+				D65A8B041AB6C3A500040620 /* AppDelegate.swift */,
+				D65A8B061AB6C3A500040620 /* ViewController.swift */,
+				D65A8B081AB6C3A500040620 /* Main.storyboard */,
+				D65A8B0B1AB6C3A500040620 /* Images.xcassets */,
+				D65A8B0D1AB6C3A500040620 /* LaunchScreen.xib */,
+				D65A8B021AB6C3A500040620 /* Supporting Files */,
+			);
+			path = datahozon;
+			sourceTree = "<group>";
+		};
+		D65A8B021AB6C3A500040620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65A8B031AB6C3A500040620 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D65A8B171AB6C3A600040620 /* datahozonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65A8B1A1AB6C3A600040620 /* datahozonTests.swift */,
+				D65A8B181AB6C3A600040620 /* Supporting Files */,
+			);
+			path = datahozonTests;
+			sourceTree = "<group>";
+		};
+		D65A8B181AB6C3A600040620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65A8B191AB6C3A600040620 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65A8AFE1AB6C3A500040620 /* datahozon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65A8B1E1AB6C3A600040620 /* Build configuration list for PBXNativeTarget "datahozon" */;
+			buildPhases = (
+				D65A8AFB1AB6C3A500040620 /* Sources */,
+				D65A8AFC1AB6C3A500040620 /* Frameworks */,
+				D65A8AFD1AB6C3A500040620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = datahozon;
+			productName = datahozon;
+			productReference = D65A8AFF1AB6C3A500040620 /* datahozon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65A8B131AB6C3A600040620 /* datahozonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65A8B211AB6C3A600040620 /* Build configuration list for PBXNativeTarget "datahozonTests" */;
+			buildPhases = (
+				D65A8B101AB6C3A600040620 /* Sources */,
+				D65A8B111AB6C3A600040620 /* Frameworks */,
+				D65A8B121AB6C3A600040620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65A8B161AB6C3A600040620 /* PBXTargetDependency */,
+			);
+			name = datahozonTests;
+			productName = datahozonTests;
+			productReference = D65A8B141AB6C3A600040620 /* datahozonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65A8AF71AB6C3A500040620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yuta Araki";
+				TargetAttributes = {
+					D65A8AFE1AB6C3A500040620 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D65A8B131AB6C3A600040620 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D65A8AFE1AB6C3A500040620;
+					};
+				};
+			};
+			buildConfigurationList = D65A8AFA1AB6C3A500040620 /* Build configuration list for PBXProject "datahozon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65A8AF61AB6C3A500040620;
+			productRefGroup = D65A8B001AB6C3A500040620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65A8AFE1AB6C3A500040620 /* datahozon */,
+				D65A8B131AB6C3A600040620 /* datahozonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65A8AFD1AB6C3A500040620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65A8B0A1AB6C3A500040620 /* Main.storyboard in Resources */,
+				D65A8B0F1AB6C3A500040620 /* LaunchScreen.xib in Resources */,
+				D65A8B0C1AB6C3A500040620 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65A8B121AB6C3A600040620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65A8AFB1AB6C3A500040620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65A8B071AB6C3A500040620 /* ViewController.swift in Sources */,
+				D65A8B051AB6C3A500040620 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65A8B101AB6C3A600040620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65A8B1B1AB6C3A600040620 /* datahozonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65A8B161AB6C3A600040620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65A8AFE1AB6C3A500040620 /* datahozon */;
+			targetProxy = D65A8B151AB6C3A600040620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D65A8B081AB6C3A500040620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65A8B091AB6C3A500040620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D65A8B0D1AB6C3A500040620 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65A8B0E1AB6C3A500040620 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65A8B1C1AB6C3A600040620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D65A8B1D1AB6C3A600040620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65A8B1F1AB6C3A600040620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = datahozon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D65A8B201AB6C3A600040620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = datahozon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D65A8B221AB6C3A600040620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = datahozonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datahozon.app/datahozon";
+			};
+			name = Debug;
+		};
+		D65A8B231AB6C3A600040620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = datahozonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/datahozon.app/datahozon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65A8AFA1AB6C3A500040620 /* Build configuration list for PBXProject "datahozon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65A8B1C1AB6C3A600040620 /* Debug */,
+				D65A8B1D1AB6C3A600040620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65A8B1E1AB6C3A600040620 /* Build configuration list for PBXNativeTarget "datahozon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65A8B1F1AB6C3A600040620 /* Debug */,
+				D65A8B201AB6C3A600040620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D65A8B211AB6C3A600040620 /* Build configuration list for PBXNativeTarget "datahozonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65A8B221AB6C3A600040620 /* Debug */,
+				D65A8B231AB6C3A600040620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D65A8AF71AB6C3A500040620 /* Project object */;
+}
